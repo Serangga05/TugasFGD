@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.medsos {
+    background-color: white;
+    text-align: center;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: #0099ff;
+}
+
+
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding: 15px;
+    color: white;
+    background-color: #0099ff;
+    border-radius: 20px;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: #0099ff;
+    color: #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #0099ff;
+    margin-bottom: 25px;
+}
+
+.project {
+    padding-bottom: 80px;
+    background-color: white;
+}
+
+.box {
+    color: #0099ff;
+}
+
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box .col-4 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.box .col-4 h4 {
+    margin: 20px 0;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
